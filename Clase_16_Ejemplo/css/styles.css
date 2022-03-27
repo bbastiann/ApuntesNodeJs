@@ -1,0 +1,22 @@
+/* h2 {
+    color: red;
+} */
+
+h3 {
+    color: brown;
+    font-size: 100px;
+}
+
+#Identificador {
+    color: yellow;
+    font-size: 75px;
+}
+
+.azul {
+    color: blue;
+    font-size: 50px;
+}
+
+.fondo {
+    background-color: burlywood;
+}
