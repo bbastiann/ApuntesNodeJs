@@ -1,4 +1,4 @@
-//Clase 17 - Crear una API estaticaca
+//17 - Crear una API estaticaca
 
 //Supongamos que queremos hacer una API para un restaurante que quiere mostrar las ordenes que se estan realizando
 

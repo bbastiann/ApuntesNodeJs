@@ -1,4 +1,4 @@
-//Clase 13 - Escribir Streams
+//13 - Escribir Streams
 //En vez de escribir toda la informacion de una podemos ir agregando poco a poco la informacion;
 const fs = require('fs');
 const readline = require('readline'); //Readline se utiliza para crear una interfaz.

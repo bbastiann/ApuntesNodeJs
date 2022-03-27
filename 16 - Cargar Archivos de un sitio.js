@@ -1,4 +1,4 @@
-//Clase 16 - Cargar Archivos de un sitio WEB
+//16 - Cargar Archivos de un sitio WEB
 
 const http = require('http');
 const fs = require('fs');

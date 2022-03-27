@@ -1,4 +1,4 @@
-//Clase 10 - Manipular Directorios
+//10 - Manipular Directorios
 
 const fs = require('fs');
 

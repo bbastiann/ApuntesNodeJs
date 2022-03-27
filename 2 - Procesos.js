@@ -1,14 +1,14 @@
-//Clase 2 - Procesos 
+//2 - Procesos 
 
 //process es un objeto global nos sirve para obtener info sobre el ambiente donde esta trabajando, es asincronico, las solicitudes van como una lista.
 console.log(process.argv) //Son argumentos que se pueden agregar 
 
 //ejemplo
 
-function param(p){
+function param(p) {
     var index = process.argv.indexOf(p); //indexOf()devuelve el índice, dentro del objeto String que realiza la llamada, de la primera ocurrencia del valor especificado.
     console.log(index);
-    return process.argv[index+1];
+    return process.argv[index + 1];
 }
 
 console.log(param('--nombre'));

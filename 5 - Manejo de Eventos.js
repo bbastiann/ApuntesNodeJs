@@ -1,4 +1,4 @@
-//Clase 5 - Manejo de Eventos
+//5 - Manejo de Eventos
 //Nos permiten accionar ciertos codigos cuando llamamos eventos cuando estos son llamados
 //Son configurables y se pueden centralizar para manejarlos de mejor forma
 
@@ -21,7 +21,7 @@ emitter.emit('eventoCustom', 'Mensaje cargado con exito', 200);
 const eventEmitter = require('events').EventEmitter;
 const util = require('util');
 
-var Persona = function(nombre){
+var Persona = function(nombre) {
     this.nombre = nombre;
 }
 
@@ -31,7 +31,7 @@ let persona = new Persona('Bob');
 
 //console.log(`Me llamo ${persona.nombre}`);
 
-persona.on('hablar', (mensaje)=> {
+persona.on('hablar', (mensaje) => {
     console.log(`${persona.nombre}: ${mensaje}`);
 });
 

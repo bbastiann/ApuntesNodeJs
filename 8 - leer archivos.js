@@ -1,4 +1,4 @@
-//Clase 8 - leer archivos
+//8 - leer archivos
 
 var fs = require("fs");
 

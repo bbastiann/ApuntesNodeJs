@@ -1,4 +1,4 @@
-//Clase 7 - Ejecutar procesos en NodeJS
+//7 - Ejecutar procesos en NodeJS
 
 //NodeJS tiene un modulo para ejecutar procesos
 

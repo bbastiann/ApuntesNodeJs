@@ -1,4 +1,4 @@
-//Clase 6 - Como Exportar Modulos
+//6 - Como Exportar Modulos
 
 //Tomando como referencia la clase pasada
 

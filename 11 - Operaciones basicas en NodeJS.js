@@ -1,4 +1,4 @@
-//Clase 11 - Operaciones basicas en NodeJS
+//11 - Operaciones basicas en NodeJS
 
 const fs = require('fs');
 

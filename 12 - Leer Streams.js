@@ -1,4 +1,4 @@
-//Clase 12 - Leer Streams
+//12 - Leer Streams
 
 const fs = require('fs');
 

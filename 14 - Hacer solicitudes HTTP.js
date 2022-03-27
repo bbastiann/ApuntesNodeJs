@@ -1,4 +1,4 @@
-//Clase 14 - Hacer solicitudes HTTP
+//14 - Hacer solicitudes HTTP
 
 const http = require('http');
 

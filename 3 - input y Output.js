@@ -1,4 +1,4 @@
-//Clase 3 - input y Output
+//3 - input y Output
 /*
 console.log("Hola Mundo")
 process.stdout.write("Hola mundo\n"); //La diferencia con console.log es que con process necesitamos hacer salto de linea ya que
@@ -19,17 +19,17 @@ console.log("Ejemplo 2")
 var preguntas = ['Cual es tu nombre ?', 'Cuantos años tienes ?', 'Lenguaje de programacion favorito ?']
 var respuestas = [];
 
-function pregunta(i){
+function pregunta(i) {
     process.stdout.write(preguntas[i]);
 }
 
-process.stdin.on('data', function(data){
+process.stdin.on('data', function(data) {
     respuestas.push(data.toString().trim());
 
-    if(respuestas.length < preguntas.length){
+    if (respuestas.length < preguntas.length) {
         pregunta(respuestas.length);
 
-    }else{
+    } else {
         process.exit();
     }
 });

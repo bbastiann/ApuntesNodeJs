@@ -1,4 +1,4 @@
-//Clase 9 - Como crear archivos
+//9 - Como crear archivos
 
 const fs = require('fs');
 
